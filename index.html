@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Numerical Methods Notes</title>
+  <script>
+    window.MathJax = {
+      loader: {
+        load: ['[tex]/physics']
+      },
+      tex: {
+        inlineMath: [['$', '$']],
+        tags: "ams",
+        packages: {'[+]': ['physics']} // Append packages to the defaults
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+<body>
+  <h1>Numerical Methods and Applications in Computational Physics</h1>
+  
+  <h2>Fitting problems</h2>
+  <h3>Least Square Methods</h3>
+  <h4>Minimize the error associated with a set of points</h4>
+  <h4>Minimize the error associated with a function</h4>
+  
+  <h2>Differential Equations</h2>
+  <h3>Finite Difference Method (FDM)</h3>
+  This method envolves approximating a function $u:\mathbb{R}^N\to\mathbb{R}$ by discretizing the space 
+  <h4>One dimension ($\mathbb{R}^1$) </h4>
+  <ul>
+    <li> Teste </li>
+  </ul>
+  <h5>Approximating the first derivative</h5>
+  <h5>Approximating the second derivative</h5>
+  Let $u:A\to\mathbb{R}$ be of class $C^2$ and $A$ be a compact. Let an initial value problem be defined as
+  \begin{equation}
+    \dv[2]{x}u = f(x),\qquad u(0) = u_0
+  \end{equation}
+  For this method, we would like to approximate $u$ by a set of coefficients $
+  <h3>Runge-Kutta Methods</h3>
+  <h3>Finite Element Method (FEM)</h3>
+</body>
+</html>
+
